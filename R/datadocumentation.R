@@ -44,3 +44,13 @@
 #' @source This is my source
 #' @keywords data
 "myprobsurface"
+
+
+#' Raster memory
+#' 
+#' #' test
+#' 
+#' @usage
+#' data(r_memory)
+#' plot(r_memory)
+"r_memory"
