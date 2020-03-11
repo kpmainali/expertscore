@@ -4,24 +4,21 @@
 \name{myprobsurface}
 \alias{myprobsurface}
 \title{Probability surface}
-\format{SpatialPointsDataFrame
+\format{raster
 \describe{
-\item{id}{ID of animal}
-\item{start}{Date of beginning of collaring}
-\item{end}{Date of death or censoring}
-\item{fate}{One of "dead", or "censored"}
+  \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
 }}
 \source{
-This is my source
+Hypothetical data
 }
 \usage{
-data(occurences)
+data(myprobsurface)
 }
 \description{
-A bunch of occurrence data
+Hypothetical predicted continuous probability surface
 }
 \examples{
-data(occurences)
+data(myprobsurface)
 
 
 }
