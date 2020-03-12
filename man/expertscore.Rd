@@ -17,10 +17,20 @@ expertscore(expertmap, probsurface, studyarea)
 This function returns an expert score
 }
 \description{
-This is a short description
+This packages computes score of an expert map based on its congruence with probability surface of a species distribution model.
 }
 \details{
-Here are a bunch of details about this function
+A quantitative metric called expert score was developed by Mainali et al to evaluate the agreement 
+between an expert map and a habitat probability surface obtained from a species distribution model.
+This method rewards both the avoidance of unsuitable sites and the inclusion of suitable sites in the expert map. 
+
+The Expert Score has a similar interpretation as the familiar coefficient of determination from simple linear regression or the more general pseudo-coefficient of determination for generalized linear models. 
+For example, when the Expert Score equals 0, the expert map has predictive accuracy equal to that that of the null map. 
+When the Expert Score equals 1, the expert map perfectly distinguishes occupied sites from unoccupied sites. 
+Expert Score can be negative when an expert map has less predictive accuracy than the null map. 
+The score is computed as 1 - expert map deviance/null deviance. 
+Given the heterogeneity and discontinuity of suitable landscape, expert maps that are drawn with more detail are 
+more likely to agree with SDMs and thus minimize both commission and omission errors.
 }
 \examples{
 # load the hypothetical predicted continuous probability surface
@@ -34,7 +44,8 @@ data(myexpert3)
 # load the hypothetical occurrences
 data(myoccurrences)
 
-# load study area
+# load study area -- we suggest a union of convex hull of occurrences and all competing expert maps
+# highly distant and suspicious occurrences can be discarded before making a convex hull
 data(mystudyarea)
 
 # plot the data
@@ -51,8 +62,8 @@ expertscore(expertmap = myexpert2, probsurface = myprobsurface, studyarea = myst
 expertscore(expertmap = myexpert3, probsurface = myprobsurface, studyarea = mystudyarea)
 }
 \references{
-Mainali et al Conservation Biology
+Kumar Mainali, Trevor Hefley, Leslie Ries, William Fagan 2020. Matching expert range maps with species distribution model predictions. Conservation Biology https://doi.org/10.1111/cobi.13492
 }
 \author{
-Kumar Mainali, Elie G, T He.
+
 }

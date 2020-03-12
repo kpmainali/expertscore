@@ -9,7 +9,8 @@ data(myexpert3)
 # load the hypothetical occurrences
 data(myoccurrences)
 
-# load study area
+# load study area -- we suggest a union of convex hull of occurrences and all competing expert maps
+# highly distant and suspicious occurrences can be discarded before making a convex hull
 data(mystudyarea)
 
 # plot the data
