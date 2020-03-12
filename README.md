@@ -12,5 +12,8 @@ Kumar Mainali, Trevor Hefley, Leslie Ries, William Fagan (2020). Matching expert
 
 The library can be installed from GitHub with devtools:
 
+`
 require(devtools)
+
+`
 install_github("kpmainali/expertscore")
