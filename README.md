@@ -16,4 +16,5 @@ The library can be installed from GitHub with devtools:
 require(devtools)
 
 `
-install_github("kpmainali/expertscore")
+
+`install_github("kpmainali/expertscore")`
