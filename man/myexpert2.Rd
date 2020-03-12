@@ -4,10 +4,7 @@
 \name{myexpert2}
 \alias{myexpert2}
 \title{Expert map #2}
-\format{SpatialPolygonsDataFrame
-\describe{
-  \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-}}
+\format{SpatialPolygonsDataFrame}
 \source{
 Hypothetical data
 }
@@ -18,8 +15,19 @@ data(myexpert2)
 Hypothetical expert map #2
 }
 \examples{
-data(myexpert2)
+# load and plot probability surface raster
+data(myprobsurface)
+plot(myprobsurface)
 
+# load and plot study area
+data(mystudyarea); plot(mystudyarea, add = TRUE)
 
+# load and plot all expert score datasets
+data(myexpert1); plot(myexpert1, add = TRUE)
+data(myexpert2); plot(myexpert2, add = TRUE)
+data(myexpert3); plot(myexpert3, add = TRUE)
+
+# load and plot occurrence data
+data(myoccurrences); plot(myoccurrences, col = "red", add = TRUE)
 }
 \keyword{data}

@@ -4,16 +4,8 @@
 #'
 #' @usage
 #' data(myprobsurface)
-#'
 #' @format raster
-#' \describe{
-#'   \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-#' }
-#'
-#' @examples
-#' data(myprobsurface)
-#'
-#'
+#' @example examples/myexpert_examples.R
 #' @source Hypothetical data
 #' @keywords data
 "myprobsurface"
@@ -27,14 +19,7 @@
 #' data(myexpert1)
 #'
 #' @format SpatialPolygonsDataFrame
-#' \describe{
-#'   \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-#' }
-#'
-#' @examples
-#' data(myexpert1)
-#'
-#'
+#' @example examples/myexpert_examples.R
 #' @source Hypothetical data
 #' @keywords data
 "myexpert1"
@@ -46,16 +31,8 @@
 #'
 #' @usage
 #' data(myexpert2)
-#'
 #' @format SpatialPolygonsDataFrame
-#' \describe{
-#'   \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-#' }
-#'
-#' @examples
-#' data(myexpert2)
-#'
-#'
+#' @example examples/myexpert_examples.R
 #' @source Hypothetical data
 #' @keywords data
 "myexpert2"
@@ -69,14 +46,7 @@
 #' data(myexpert3)
 #'
 #' @format SpatialPolygonsDataFrame
-#' \describe{
-#'   \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-#' }
-#'
-#' @examples
-#' data(myexpert3)
-#'
-#'
+#' @example examples/myexpert_examples.R
 #' @source Hypothetical data
 #' @keywords data
 "myexpert3"
@@ -87,17 +57,11 @@
 #' A bunch of hypothetical occurrence records
 #'
 #' @usage
-#' data(occurences)
+#' data(myoccurrences)
 #'
 #' @format SpatialPointsDataFrame
-#' \describe{
-#'   \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-#' }
-#'
-#' @examples
-#' data(occurences)
-#'
 #' @source Hypothetical data
+#' @example examples/myexpert_examples.R
 #' @keywords data
 "myoccurrences"
 
@@ -110,13 +74,7 @@
 #' data(mystudyarea)
 #'
 #' @format SpatialPolygonsDataFrame
-#' \describe{
-#'   \item{projection}{"+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"}
-#' }
-#'
-#' @examples
-#' data(mystudyarea)
-#'
+#' @example examples/myexpert_examples.R
 #' @source Hypothetical data
 #' @keywords data
 "mystudyarea"
