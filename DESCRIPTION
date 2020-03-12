@@ -1,11 +1,11 @@
 Package: expertscore
 Type: Package
-Title: computes score of an expert map based on its congruence with probability surface of a species distribution model
+Title: Expert map score computation in R
 Version: 1.0
 Date: 2020-03-10
-Author: Kumar Mainali, Trevor Hefley, Eliezer (Elie) Gurarie
+Author: Kumar Mainali, Trevor Hefley, Eliezer Gurarie
 Maintainer: Who to complain to <kpmainali@gmail.com>
-Description: More about what it does (maybe more than one line)
+Description: computes score of an expert map based on its congruence with probability surface of a species distribution model
 License: GPL>=3
 RoxygenNote: 7.0.2
 Depends: R (>= 3.5.0)
